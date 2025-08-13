@@ -1,3 +1,26 @@
 #sectionPrincipal{
     background-color: blueviolet;
+    
+}
+
+#tituloPrincipal {
+   color: tomato;
+   text-align: center;
+   font-size: 4em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#headerMaoHome {
+    display: flex;
+    background-color: #333;
+    gap: 20px;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+
+#headerMaoHome nav {
+    flex:  1 1 auto; /* Permite que los nav se expandan */
+    text-align: center; /* Centra el texto dentro de cada nav */
+    
 }
