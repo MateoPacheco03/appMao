@@ -1,16 +1,28 @@
 #sectionPrincipal{
     background-color: blueviolet;
-    
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+/*
+Arreglar el espaciado entre esta seccion y el footer
+*/
+
 
 #tituloPrincipal {
    color: tomato;
-   text-align: center;
-   font-size: 4em;
+    text-align: center;
+    font-size: 4em;
     font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
 }
 
 #headerMaoHome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     background-color: #333;
     gap: 20px;
@@ -23,4 +35,54 @@
     flex:  1 1 auto; /* Permite que los nav se expandan */
     text-align: center; /* Centra el texto dentro de cada nav */
     
+}
+
+body{
+    background-color: cadetblue;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 900px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer nav {
+    display: inline-block;
+    flex: 1 1 auto;
+    text-align: center;
+
+}
+
+.sectionClass{
+    width: 33%;
+    height: 250px;
+    background-color: bisque;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 12px;
+    
+}
+
+
+#logoMaoHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
 }
